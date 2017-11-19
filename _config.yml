@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:          pretty
+permalink:          /:year/:month/:title/
 # Setup
 title:               Opinioni
 tagline:             'di Andrea Marcacci'
@@ -9,7 +9,6 @@ description:         "Questo sito è un'occasione di poter esprimere opinioni e 
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 plugins:              [jekyll-paginate]
-gems:                  [jekyll-paginate]
 paginate:             1
 paginate_path:       "page:num"
 
