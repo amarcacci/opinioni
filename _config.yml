@@ -1,16 +1,17 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:          pretty
 # Setup
 title:               Opinioni
 tagline:             'di Andrea Marcacci'
-description:         'Pensieri,opinioni riflessioni personali su fatti passati, presenti e futuri.'
+description:         "Questo sito è un'occasione di poter esprimere opinioni e pensieri. Ogni testo qui riprodotto rappresenta un pesniero passatomi per la testa. Vi prego di non interpretare i miei post come un attacco, personale o no, ma piuttosto come uno spunto di riflessione."
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+plugins:              [jekyll-paginate]
+gems:                  [jekyll-paginate]
+paginate:             1
+paginate_path:       "page:num"
 
 # About/contact
 author:
