@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Test TM",
+    "owner": "Andrea",
+    "description": "This is a test threat model generated with Threat Dragon from OWASP"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Marca"
+  }
+}
